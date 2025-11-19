@@ -14,15 +14,15 @@ function calcButton(){
    result3 = inputfield.value/result2
    output.innerHTML = result3
    if(result3<=18.99){
- console.log("Nepietiekama ķermeņa masa")
+ console.log("(Nepietiekama ķermeņa masa)")
    }
    else if(result3<=24.99){
-     console.log("Normāla ķermeņa masa")
+     console.log("(Normāla ķermeņa masa)")
    }
     else if(result3<=29.99){
- console.log("Lieka ķermeņa masa")
+ console.log("(Lieka ķermeņa masa)")
    }
    else{
-      console.log("Aptaukošanās")
+      console.log("(Aptaukošanās)")
    }
 }
